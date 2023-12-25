@@ -1,6 +1,6 @@
 import os
 
-folder_path = "C:\\Users\\zh983\\OneDrive - The University of Auckland\\Desktop\\swap_upi"
+folder_path = "path to where all files are stored"
 
 if os.path.exists(folder_path) and os.path.isdir(folder_path):
     file_list = os.listdir(folder_path)
