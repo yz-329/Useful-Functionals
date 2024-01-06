@@ -45,7 +45,7 @@ def custom_sort(file_name):
         except:
             return 0
     
-folder_path = 'C:\\Users\\bjtdx\\Desktop\\KAM'
+folder_path = 'path\\to\\folder'
 
 count = 0
 new = open("Word Count.txt", "w")
